@@ -12,7 +12,98 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <body>
-    <h1 class="text-4xl text-red-500">Hello World</h1>
+    <main
+      class="h-screen w-screen min-w-[360px] snap-y snap-mandatory overflow-x-hidden transition-all duration-1000 scrollbar-thin scrollbar-thumb-myBlack"
+    >
+      <header>
+        <nav class="flex w-full justify-center gap-10 text-sm">
+          <!-- TODO: add fahkwang font -->
+          <!-- TODO: add event listener -->
+          <button
+            class="md:text-md relative uppercase transition-all duration-200 lg:text-lg xl:text-xl"
+          >
+            home
+            <!-- TODO: if active give it motionDivClassName -->
+            <!-- TODO: add this: navLinks2or3or4InView ? "text-white" : "text-myBlack" -->
+            <div
+              class="absolute bottom-[-1px] left-0 right-0 h-[1px] bg-myBlack transition-all duration-[3000]"
+            ></div>
+          </button>
+          <!-- TODO: add fahkwang font -->
+          <!-- TODO: add event listener -->
+          <button
+            class="md:text-md relative uppercase transition-all duration-200 lg:text-lg xl:text-xl"
+          >
+            about
+            <!-- TODO: if active give it motionDivClassName -->
+            <!-- TODO: add this: navLinks2or3or4InView ? "text-white" : "text-myBlack" -->
+            <div
+              class="absolute bottom-[-1px] left-0 right-0 h-[1px] bg-myBlack transition-all duration-[3000]"
+            ></div>
+          </button>
+          <button
+            class="md:text-md relative uppercase transition-all duration-200 lg:text-lg xl:text-xl"
+          >
+            work
+            <!-- TODO: if active give it motionDivClassName -->
+            <!-- TODO: add this: navLinks2or3or4InView ? "text-white" : "text-myBlack" -->
+            <div
+              class="absolute bottom-[-1px] left-0 right-0 h-[1px] bg-myBlack transition-all duration-[3000]"
+            ></div>
+          </button>
+          <button
+            class="md:text-md relative uppercase transition-all duration-200 lg:text-lg xl:text-xl"
+          >
+            contact
+            <!-- TODO: if active give it motionDivClassName -->
+            <!-- TODO: add this: navLinks2or3or4InView ? "text-white" : "text-myBlack" -->
+            <div
+              class="absolute bottom-[-1px] left-0 right-0 h-[1px] bg-myBlack transition-all duration-[3000]"
+            ></div>
+          </button>
+        </nav>
+        <div
+          class="mt-8 flex h-6 items-center justify-center gap-4 text-center"
+        >
+          <!-- Left circle -->
+          <!-- TODO: add event listener -->
+          <!-- TODO: add dynamic classes -->
+          <div class="h-7 w-7 rounded-full transition-all duration-300"></div>
+          <!-- TODO: add robotoMono500 font -->
+          <!-- TODO: add dynamic style -->
+          <p
+            class="overflow-x-hidden transition-all duration-300 md:text-lg lg:text-xl xl:text-2xl"
+          >
+            NEMANJA KOSTADINOVIĆ
+          </p>
+          <!-- Right circle -->
+          <!-- TODO: add event listener -->
+          <!-- TODO: add dynamic classes -->
+          <div
+            class="h-7 w-7 rounded-full bg-myBlack transition-all duration-300"
+          ></div>
+        </div>
+      </header>
+      <div
+        id="home"
+        class="relative z-10 flex h-screen snap-start items-center justify-center"
+      ></div>
+      <div
+        id="about"
+        class="relative z-10 flex h-screen snap-start items-center justify-center"
+      ></div>
+      <div
+        id="work"
+        class="relative z-10 flex h-screen snap-start items-center justify-center"
+      ></div>
+      <div
+        class="relative z-10 flex h-screen snap-start items-center justify-center"
+      ></div>
+      <div
+        id="contact"
+        class="relative z-10 flex h-screen snap-start items-center justify-center"
+      ></div>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
