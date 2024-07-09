@@ -5,3 +5,37 @@
 .scrollbar-thumb-myBlack {
   --scrollbar-thumb: #2f2f2f !important;
 }
+
+.fill-myBlack {
+  fill: #2f2f2f;
+}
+
+.bg-myBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 47 47 / var(--tw-bg-opacity)) /* #2f2f2f */;
+}
+
+.text-myBlack {
+  --tw-text-opacity: 1;
+  color: rgb(47 47 47 / var(--tw-text-opacity)) /* #2f2f2f */;
+}
+
+.bg-myYellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 231 147 / var(--tw-bg-opacity)) /* #ffe793 */;
+}
+
+.text-myYellow {
+  --tw-text-opacity: 1;
+  color: rgb(255 231 147 / var(--tw-text-opacity)) /* #ffe793 */;
+}
+
+.bg-myGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 192 115 / var(--tw-bg-opacity)) /* #1ac073 */;
+}
+
+.bg-myBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 118 210 / var(--tw-bg-opacity)) /* #1976d2 */;
+}
